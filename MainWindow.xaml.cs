@@ -34,7 +34,9 @@ namespace CalculatorVP
                 }
             }
         }
-        private double memoryValue = 0;
+        public double memoryValue = 0;
+
+        public TextBox TextBox => text;
 
         private void ButtonClick(Object sender, RoutedEventArgs e)
         {
