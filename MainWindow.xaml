@@ -22,6 +22,7 @@
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
 
         <TextBox Name="text" Grid.Row="0" Grid.ColumnSpan="5" FontSize="16"/>
@@ -41,9 +42,13 @@
         <Button Grid.Row="3" Grid.Column="2" Margin="0,64,0,0" Grid.RowSpan="2">8</Button>
         <Button Grid.Row="3" Grid.Column="3" Margin="0,64,0,0" Grid.RowSpan="2">9</Button>
         <Button Grid.Row="3" Grid.Column="4" Margin="0,64,0,0" Grid.RowSpan="2">*</Button>
-        <Button Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Margin="0,64,0,0" Grid.RowSpan="2">.</Button>
+        <Button Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Margin="0,64,0,0" Grid.RowSpan="2">,</Button>
         <Button Grid.Row="4" Grid.Column="2" Margin="0,64,0,0" Grid.RowSpan="2">0</Button>
         <Button Grid.Row="4" Grid.Column="3" Margin="0,64,0,0" Grid.RowSpan="2">=</Button>
         <Button Grid.Row="4" Grid.Column="4" Margin="0,64,0,0" Grid.RowSpan="2">/</Button>
+        <Button Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Margin="0,64,0,0" Grid.RowSpan="2">MR</Button>
+        <Button Grid.Row="5" Grid.Column="2" Margin="0,64,0,0" Grid.RowSpan="2">M+</Button>
+        <Button Grid.Row="5" Grid.Column="3" Margin="0,64,0,0" Grid.RowSpan="2">MC</Button>
+        <Button Grid.Row="5" Grid.Column="4" Margin="0,64,0,0" Grid.RowSpan="2">%</Button>
     </Grid>
 </Window>
